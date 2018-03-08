@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+    <string name="song_name">Song name</string>
+    <string name="artist_name">Artist name</string>
+    <string name="playing_button">play</string>
+    <string name="pause_button">pause</string>
+    <string name="stop_button">stop</string>
+    <string name="bamboozeled">Bamboozeled</string>
+    <string name="main_pic">main pic</string>
+    <!-- Names of the songs -->
+    <string name="killing_strangers">Killing Strangers</string>
+    <string name="feel_it_still">Feel It Still</string>
+    <string name="shape_of_you">Shape Of You</string>
+    <string name="human">Human</string>
+    <string name="black_betty">Black Betty</string>
+    <string name="omen_reprise">Omen Reprise</string>
+    <string name="prime_time_of_your_life">Prime Time Of Your Life</string>
+    <string name="levitate">Levitate</string>
+    <string name="broken_vows">Broken Vows</string>
+    <string name="send_me_on_my_way">Send Me On My Way</string>
+    <string name="take_it_all">Take It All</string>
+    <string name="believer">Believer</string>
+    <!-- Names of the artists -->
+    <string name="marilyn_manson">Marilyn Manson</string>
+    <string name="portugal_the_man">Portugal. The Man</string>
+    <string name="ed_sheeran">Ed Sheeran</string>
+    <string name="rag_n_bone">"Rag'n'Bone"</string>
+    <string name="caravan_palace">Caravan Palace</string>
+    <string name="the_prodigy">The Prodigy</string>
+    <string name="daft_punk">Daft Punk</string>
+    <string name="hadouken">Hadouken</string>
+    <string name="michael_stearns">Michael Stearns</string>
+    <string name="not_too_sharp">Not Too Sharp</string>
+    <string name="ruelle">Ruelle</string>
+    <string name="imagine_dragons">Imagine Dragons</string>
+    <string name="activity_song_card">activity_song_card</string>
+</resources>
