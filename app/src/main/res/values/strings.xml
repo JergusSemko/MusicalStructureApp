@@ -1,37 +1,85 @@
 <resources>
+
+    <!-- General terms -->
     <string name="app_name">Musical Structure App</string>
-    <string name="song_name">Song name</string>
-    <string name="artist_name">Artist name</string>
-    <string name="playing_button">play</string>
-    <string name="pause_button">pause</string>
-    <string name="stop_button">stop</string>
-    <string name="bamboozeled">Bamboozeled</string>
-    <string name="main_pic">main pic</string>
-    <!-- Names of the songs -->
-    <string name="killing_strangers">Killing Strangers</string>
-    <string name="feel_it_still">Feel It Still</string>
-    <string name="shape_of_you">Shape Of You</string>
-    <string name="human">Human</string>
-    <string name="black_betty">Black Betty</string>
-    <string name="omen_reprise">Omen Reprise</string>
-    <string name="prime_time_of_your_life">Prime Time Of Your Life</string>
-    <string name="levitate">Levitate</string>
-    <string name="broken_vows">Broken Vows</string>
-    <string name="send_me_on_my_way">Send Me On My Way</string>
-    <string name="take_it_all">Take It All</string>
+    <string name="composer">composer</string>
+    <string name="play_arrow">play arrow</string>
+    <string name="now_playing">Now playing . . .</string>
+    <string name="composition">composition</string>
+    <string name="beginning">Beginning</string>
+    <string name="position">Position</string>
+    <string name="total">Total</string>
+    <string name="end">End</string>
+    <string name="volume">Volume</string>
+    <string name="title_activity_header_info">header_info</string>
+    <string name="pause_button">pause button</string>
+    <string name="play_button">play button</string>
+    <string name="stop_button">stop button</string>
+    <string name="main_menu_button">Main menu</string>
+
+    <string name="category">Category</string>
+    <string name="playlist">Playlist</string>
+
+    <!--Joke part-->
+    <string name="bamboozled">Bamboozled</string>
+
+    <!--Headers with funny ID tags-->
+    <string name="mooder">What mood are you in today?</string>
+    <string name="songer">Choose the song that you like the most from the</string>
+
+    <!--Moods to choose from-->
+    <string name="hard">Hard Music</string>
+    <string name="acoustic">Acoustic Music</string>
+    <string name="mainstream">Mainstream Music</string>
+
+    <!-- Mainstream mood -->
     <string name="believer">Believer</string>
-    <!-- Names of the artists -->
-    <string name="marilyn_manson">Marilyn Manson</string>
-    <string name="portugal_the_man">Portugal. The Man</string>
-    <string name="ed_sheeran">Ed Sheeran</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="feel_it_still">Feel it Still</string>
+    <string name="shape_of_you">Shape of You</string>
+    <string name="heathens">Heathens</string>
+    <string name="seven_nation_army">Seven Nation Army</string>
+    <string name="human">Human</string>
+
+    <!-- Hard mood -->
+    <string name="killing_strangers">Killing Strangers</string>
+    <string name="wake_me_up">Wake Me Up</string>
+    <string name="numb">Numb</string>
+    <string name="twisted_transistor">Twisted Transistor</string>
+    <string name="chop_suy">Chop Suy</string>
+
+    <!-- Acoustic mood -->
+    <string name="priscillas_song">"Priscilla's Song"</string>
+    <string name="kiss">Kiss (acoustic version)</string>
+    <string name="gangsta">Gangsta (acoustic version)</string>
+
+
+    <!-- Names of the artists with extra string for no surname -->
+    <string name="blank">""</string>
+
+    <string name="marilyn">Marilyn</string>
+    <string name="manson">Manson</string>
+    <string name="korn">Korn</string>
+    <string name="evanescence">Evanescence</string>
+    <string name="lin_kin_park">Lin Kin Park</string>
+    <string name="system_of_a_down">System of a Down</string>
+    <string name="imagine">Imagine</string>
+    <string name="dragons">Dragons</string>
+    <string name="burak">Burak</string>
+    <string name="yeter">Yeter</string>
+    <string name="portugal">Portugal.</string>
+    <string name="the_man">The Man</string>
+    <string name="ed">Ed</string>
+    <string name="sheeran">Sheeran</string>
+    <string name="twenty_one">21</string>
+    <string name="pilots">Pilots</string>
+    <string name="the">The</string>
+    <string name="white_stripes">White Stripes</string>
     <string name="rag_n_bone">"Rag'n'Bone"</string>
-    <string name="caravan_palace">Caravan Palace</string>
-    <string name="the_prodigy">The Prodigy</string>
-    <string name="daft_punk">Daft Punk</string>
-    <string name="hadouken">Hadouken</string>
-    <string name="michael_stearns">Michael Stearns</string>
-    <string name="not_too_sharp">Not Too Sharp</string>
-    <string name="ruelle">Ruelle</string>
-    <string name="imagine_dragons">Imagine Dragons</string>
-    <string name="activity_song_card">activity_song_card</string>
+    <string name="malukah">Malukah</string>
+    <string name="kehlani">Kehlani</string>
+    <string name="about">This is a standard Udacity Student grade Musical Structure App. This section was created only to make the reader look busy while he/she works. So enjoy a little bit of free time ;)</string>
+    <string name="curious_fox">curiousFox</string>
+    <string name="to_main_menu">To Main Menu</string>
+
 </resources>

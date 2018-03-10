@@ -9,16 +9,36 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MoodList">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SongInfo" />
-        <activity android:name=".SongListAdapter" />
-        <activity android:name=".SongCard"></activity>
+        <activity
+            android:name=".SongsList"
+            android:label="@string/playlist"
+            android:launchMode="singleTask"
+            android:parentActivityName=".MoodList">
+
+            <!-- Parent activity meta-data to support 4.0 or lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MoodList" />
+        </activity>
+        <activity
+            android:name=".NowPlaying"
+            android:label="@string/now_playing"
+            android:launchMode="singleTask"
+            android:parentActivityName=".SongsList">
+
+            <!-- Parent activity meta-data to support 4.0 or lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SongsList" />
+        </activity>
+        <activity android:name=".About"></activity>
     </application>
 
 </manifest>

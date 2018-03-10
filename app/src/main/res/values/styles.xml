@@ -2,18 +2,61 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@color/primary_color</item>
-        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <!-- Style for a category of vocabulary words -->
-    <style name="CategoryStyle">
+    <!-- style for header. -->
+    <style name="header">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">@dimen/list_item_height</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:padding">16dp</item>
-        <item name="android:textColor">@android:color/white</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimaryLight</item>
+        <item name="android:padding">@dimen/dim16</item>
+        <item name="android:textSize">@dimen/text16</item>
+        <item name="android:fontFamily">casual</item>
     </style>
+
+    <!-- style artistoser list. -->
+    <style name="artist">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- style for playing now text. -->
+    <style name="playingNow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/dim8</item>
+    </style>
+
+    <!-- style for seek bars. -->
+    <style name="seekBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/dim8</item>
+    </style>
+
+    <!-- style for texts bellow seek bar position. -->
+    <style name="textSeek">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/dim8</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>
