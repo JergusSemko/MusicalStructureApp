@@ -11,17 +11,11 @@ public class Songs {
     private String mArtistSecondName;
 
     // And thus the new song object was created.
-    public Songs(String composition, String firstName, String secondName, int imgResource) {
-        mSongName = composition;
+    public Songs(String songName, String firstName, String secondName, int imgResource) {
+        mSongName = songName;
         mArtistFirstName = firstName;
         mArtistSecondName = secondName;
         mImageComposer = imgResource;
-    }
-
-    public Songs(String songName, String firstName) {
-
-        mSongName = songName;
-        mArtistFirstName = firstName;
     }
 
     // Getting everything together.
@@ -31,7 +25,7 @@ public class Songs {
     public String getFirstName() {
         return mArtistFirstName;
     }
-    public String getComposition() {
+    public String getSongName() {
         return mSongName;
     }
     public Integer getImageResourceId() {

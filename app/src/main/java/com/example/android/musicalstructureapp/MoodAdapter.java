@@ -12,10 +12,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by Bobeš on 02-Mar-18.
- */
-
 public class MoodAdapter extends ArrayAdapter<Mood> {
 
     public MoodAdapter(Activity context, ArrayList<Mood> category) {
@@ -35,15 +31,14 @@ public class MoodAdapter extends ArrayAdapter<Mood> {
         Mood currentCategory = getItem(position);
 
         // Find the TextView in the category_list.xml layout with the ID mood
-        TextView categoryTextView = (TextView) listItemView.findViewById(R.id.mood);
+        TextView categoryTextView = listItemView.findViewById(R.id.mood);
         // Get the mood from the current object and
         // set this text on the name TextView
         assert currentCategory != null;
         categoryTextView.setText(currentCategory.getChosenMood());
 
-
         //Find ImageView in the category_list.xml layout with the ID version_name
-        ImageView imageComposer = (ImageView) listItemView.findViewById(R.id.note);
+        ImageView imageComposer = listItemView.findViewById(R.id.note);
 
         // Check if an image is provided for this mood or not
         if (currentCategory.hasImage()) {
@@ -52,12 +47,10 @@ public class MoodAdapter extends ArrayAdapter<Mood> {
             // Make sure the view is visible
             imageComposer.setVisibility(View.VISIBLE);
         } else {
-            // Otherwise hide the ImageView (set visibility to GONE)
+            // Otherwise hide the ImageView
             imageComposer.setVisibility(View.GONE);
         }
 
-        // Return the whole list item layout (containing ! TextView and an ImageView)
-        // so that it can be shown in the ListView
         return listItemView;
     }
 }

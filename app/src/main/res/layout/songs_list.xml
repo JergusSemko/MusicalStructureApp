@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dim6"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/note"
+        android:layout_width="@dimen/dim6"
+        android:layout_height="@dimen/dim6"
+        android:padding="10dp"
+        android:src="@drawable/g_note"
+        android:contentDescription="@string/decorative"/>
+
+    <LinearLayout
+        android:id="@+id/song_info"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim5"
+        android:layout_alignBottom="@id/note"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/note"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/dim2"
+        android:paddingEnd="@dimen/dim3">
+
+        <TextView
+            android:id="@+id/song"
+            style="@style/artist"
+            android:textStyle="bold"
+            tools:text="song"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <TextView
+            android:id="@+id/artist"
+            style="@style/artist"
+            android:textAppearance="?android:textAppearanceSmall"
+            tools:text="artist" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/play_button"
+        android:layout_width="@dimen/dim3"
+        android:layout_height="@dimen/dim3"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/dim2"
+        android:src="@drawable/play_button"
+        android:contentDescription="@string/decorative"/>
+
+</RelativeLayout>

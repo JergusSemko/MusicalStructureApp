@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -19,8 +18,8 @@ public class MoodList extends AppCompatActivity implements ListView.OnItemClickL
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mood_layout);
-        // Create an array of categories
 
+        // Create an array of categories
         final ArrayList<Mood> category = new ArrayList<>();
 
         category.add(new Mood(getString(R.string.hard), R.drawable.g_note));

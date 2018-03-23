@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/dim2"
+    tools:context="com.example.android.musicalstructureapp.NowPlaying">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/menuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/main_menu_button"
+            android:src="@drawable/menu_button" />
+
+        <TextView
+            android:id="@+id/artist"
+            style="@style/currentlyPlaying"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/menuButton"
+            android:text="@string/artist"
+            android:textSize="@dimen/text20" />
+
+        <TextView
+            android:id="@+id/song"
+            style="@style/currentlyPlaying"
+            android:layout_below="@+id/artist"
+            android:text="@string/song"
+            android:textSize="@dimen/text20" />
+
+        <TextView
+            android:id="@+id/volume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/song"
+            android:layout_marginTop="@dimen/dim1"
+            android:text="@string/volume" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/seekBar"
+            android:layout_marginTop="@dimen/dim4"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/pause"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/pause_button"
+                android:src="@drawable/pause_button" />
+
+            <ImageButton
+                android:id="@+id/play"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/play_button"
+                android:src="@drawable/play_button" />
+
+            <ImageButton
+                android:id="@+id/stop"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/stop_button"
+                android:src="@drawable/stop_button" />
+
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            style="@style/seekBar"
+            android:layout_below="@id/volume" />
+
+    </RelativeLayout>
+
+</ScrollView>

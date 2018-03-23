@@ -2,21 +2,19 @@
 
     <!-- General terms -->
     <string name="app_name">Musical Structure App</string>
-    <string name="composer">composer</string>
-    <string name="play_arrow">play arrow</string>
-    <string name="now_playing">Now playing . . .</string>
-    <string name="composition">composition</string>
-    <string name="beginning">Beginning</string>
+    <string name="artist">artist</string>
+    <string name="song">song</string>
     <string name="position">Position</string>
-    <string name="total">Total</string>
-    <string name="end">End</string>
-    <string name="volume">Volume</string>
-    <string name="title_activity_header_info">header_info</string>
+    <string name="now_playing">Now playing</string>
     <string name="pause_button">pause button</string>
     <string name="play_button">play button</string>
     <string name="stop_button">stop button</string>
     <string name="main_menu_button">Main menu</string>
-
+    <string name="end">End</string>
+    <string name="volume">Volume</string>
+    <string name="header">Header</string>
+    <string name="amount">Amount</string>
+    <string name="to_main_menu">To Main Menu</string>
     <string name="category">Category</string>
     <string name="playlist">Playlist</string>
 
@@ -53,7 +51,6 @@
     <string name="kiss">Kiss (acoustic version)</string>
     <string name="gangsta">Gangsta (acoustic version)</string>
 
-
     <!-- Names of the artists with extra string for no surname -->
     <string name="blank">""</string>
 
@@ -78,8 +75,5 @@
     <string name="rag_n_bone">"Rag'n'Bone"</string>
     <string name="malukah">Malukah</string>
     <string name="kehlani">Kehlani</string>
-    <string name="about">This is a standard Udacity Student grade Musical Structure App. This section was created only to make the reader look busy while he/she works. So enjoy a little bit of free time ;)</string>
-    <string name="curious_fox">curiousFox</string>
-    <string name="to_main_menu">To Main Menu</string>
-
+    <string name="decorative">decorative</string>
 </resources>
