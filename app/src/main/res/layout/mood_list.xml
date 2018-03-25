@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:id="@+id/categoryScreen"
-    tools:context="com.example.android.musicalstructureapp.MoodList">
+    tools:context="com.example.android.musicalstructureapp.MoodListActivity">
 
     <ImageView
         android:id="@+id/note"

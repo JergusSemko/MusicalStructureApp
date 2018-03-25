@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class SongsList extends AppCompatActivity implements ListView.OnItemClickListener {
+public class SongsListActivity extends AppCompatActivity implements ListView.OnItemClickListener {
 
     private String mInfo;
     private String mChosenMood;
@@ -94,7 +94,7 @@ public class SongsList extends AppCompatActivity implements ListView.OnItemClick
         String artistToListenTo = artistSelected.getText().toString();
 
         intentExtra = artistToListenTo + "|" + songToListenTo;
-        Intent intent = new Intent(context, NowPlaying.class);
+        Intent intent = new Intent(context, NowPlayingActivity.class);
         intent.putExtra("message", intentExtra);
         startActivity(intent);
     }

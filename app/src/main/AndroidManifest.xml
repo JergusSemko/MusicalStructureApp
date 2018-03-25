@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MoodList">
+        <activity android:name=".MoodListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,26 +17,26 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SongsList"
+            android:name=".SongsListActivity"
             android:label="@string/playlist"
             android:launchMode="singleTask"
-            android:parentActivityName=".MoodList">
+            android:parentActivityName=".MoodListActivity">
 
             <!-- Parent activity meta-data to support 4.0 or lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MoodList" />
+                android:value=".MoodListActivity" />
         </activity>
         <activity
-            android:name=".NowPlaying"
+            android:name=".NowPlayingActivity"
             android:label="@string/now_playing"
             android:launchMode="singleTask"
-            android:parentActivityName=".SongsList">
+            android:parentActivityName=".SongsListActivity">
 
             <!-- Parent activity meta-data to support 4.0 or lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".SongsList" />
+                android:value=".SongsListActivity" />
         </activity>
     </application>
 

@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class MoodList extends AppCompatActivity implements ListView.OnItemClickListener {
+public class MoodListActivity extends AppCompatActivity implements ListView.OnItemClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,9 +53,9 @@ public class MoodList extends AppCompatActivity implements ListView.OnItemClickL
         TextView textView = view.findViewById(R.id.mood);
         String selectedMood = textView.getText().toString();
 
-        Intent intent = new Intent(context, SongsList.class);
-        intent.putExtra("message", selectedMood);
-        startActivity(intent);
+        Intent songListIntent = new Intent(context, SongsListActivity.class);
+        songListIntent.putExtra("message", selectedMood);
+        startActivity(songListIntent);
     }
 }
 

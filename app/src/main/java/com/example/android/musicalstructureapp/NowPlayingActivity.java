@@ -14,7 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import static android.media.AudioManager.STREAM_MUSIC;
 
-public class NowPlaying extends AppCompatActivity implements View.OnClickListener {
+public class NowPlayingActivity extends AppCompatActivity implements View.OnClickListener {
 
     // Initializing global variables.
     private AudioManager audioManager = null;
@@ -57,8 +57,8 @@ public class NowPlaying extends AppCompatActivity implements View.OnClickListene
         backToMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent backToCategory = new Intent(NowPlaying.this, MoodList.class);
-                NowPlaying.this.startActivity(backToCategory);
+                Intent backToCategory = new Intent(NowPlayingActivity.this, MoodListActivity.class);
+                NowPlayingActivity.this.startActivity(backToCategory);
             }
         });
         playingNow();

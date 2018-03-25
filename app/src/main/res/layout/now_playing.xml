@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="@dimen/dim2"
-    tools:context="com.example.android.musicalstructureapp.NowPlaying">
+    tools:context="com.example.android.musicalstructureapp.NowPlayingActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
